@@ -1,5 +1,11 @@
 # LineNotify
 
+[![Gem Version](https://img.shields.io/gem/v/line_notify.svg?style=flat)](http://badge.fury.io/rb/line_notify)
+[![Build Status](https://travis-ci.org/YuzuruS/line_notify.svg?branch=master)](https://travis-ci.org/YuzuruS/line_notify)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d74bc622ab27e20bafa9/maintainability)](https://codeclimate.com/github/YuzuruS/line_notify/maintainability)
+[![Coverage Status](https://coveralls.io/repos/github/YuzuruS/line_notify/badge.svg?branch=master)](https://coveralls.io/github/YuzuruS/line_notify?branch=master)
+[![Dependency Status](https://beta.gemnasium.com/badges/github.com/YuzuruS/line_notify.svg)](https://beta.gemnasium.com/projects/github.com/YuzuruS/line_notify)
+
 Ruby Client for the LINE notify API 
 
 https://notify-bot.line.me/
