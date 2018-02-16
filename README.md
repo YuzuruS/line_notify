@@ -61,11 +61,23 @@ https://notify-bot.line.me/doc/ja/
 
 https://notify-bot.line.me/ja/
 
-![1](https://user-images.githubusercontent.com/1485195/36305668-d6f110d2-1357-11e8-866b-53fc76134756.jpg)
-![2](https://user-images.githubusercontent.com/1485195/36305667-d6cd0336-1357-11e8-933a-7087ba1db16b.jpg)
-![4](https://user-images.githubusercontent.com/1485195/36305666-d69462ce-1357-11e8-987b-fec76a6f6fde.jpg)
-![5](https://user-images.githubusercontent.com/1485195/36305665-d66fc84c-1357-11e8-8387-44a301f79198.jpg)
+---
 
+![1](https://user-images.githubusercontent.com/1485195/36305805-83e19c4e-1358-11e8-810f-8d351e5091d0.jpg)
+
+---
+
+![2](https://user-images.githubusercontent.com/1485195/36305804-83bdcee0-1358-11e8-841e-f0354b35fe6a.jpg)
+
+---
+
+![4](https://user-images.githubusercontent.com/1485195/36305803-838a0df8-1358-11e8-85f1-e6fbf164c4a3.jpg)
+
+---
+
+![5](https://user-images.githubusercontent.com/1485195/36305806-8403a44c-1358-11e8-8432-a85fc7ae5436.jpg)
+
+---
 
 ## Development
 
