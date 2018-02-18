@@ -8,7 +8,7 @@
 
 Ruby Client for the LINE notify API 
 
-https://notify-bot.line.me/
+https://notify-bot.line.me/ja/
 
 ## Installation
 
@@ -27,6 +27,7 @@ Or install it yourself as:
     $ gem install line_notify
 
 ## Usage
+
 
 ```ruby
 line_notify = LineNotify.new(YOUR_LINE_TOKEN)
@@ -54,7 +55,29 @@ line_notify.send(options)
 
 
 detail
-https://notify-bot.line.me/doc
+https://notify-bot.line.me/doc/ja/
+
+## Issue of access token
+
+https://notify-bot.line.me/ja/
+
+---
+
+![1](https://user-images.githubusercontent.com/1485195/36305805-83e19c4e-1358-11e8-810f-8d351e5091d0.jpg)
+
+---
+
+![2](https://user-images.githubusercontent.com/1485195/36305804-83bdcee0-1358-11e8-841e-f0354b35fe6a.jpg)
+
+---
+
+![4](https://user-images.githubusercontent.com/1485195/36305803-838a0df8-1358-11e8-85f1-e6fbf164c4a3.jpg)
+
+---
+
+![5](https://user-images.githubusercontent.com/1485195/36305806-8403a44c-1358-11e8-8432-a85fc7ae5436.jpg)
+
+---
 
 ## Development
 

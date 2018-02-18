@@ -6,7 +6,7 @@ module LineNotify
     URI = URI.parse("https://notify-api.line.me/api/notify")
 
     def initialize(access_token)
-      @access_token = (ENV['LINE_ACCESS_TOKEN'] || access_token)
+      @access_token = (access_token || ENV['LINE_ACCESS_TOKEN'])
     end
 
     def send(options)
