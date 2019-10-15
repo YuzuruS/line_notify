@@ -32,7 +32,7 @@ Or install it yourself as:
 ```ruby
 line_notify = LineNotify.new(YOUR_LINE_TOKEN)
 options = {message: 'hoge', stickerPackageId: 1, stickerId: 113}
-line_notify.send(options)
+line_notify.ping(options)
 
 ```
 
@@ -48,7 +48,7 @@ options = {
   imageFullsize: "https://www.pakutaso.com/shared/img/thumb/SAYAPAKU5347_TP_V4.jpg",
   imageThumbnail: "https://www.pakutaso.com/shared/img/thumb/SAYAPAKU5347_TP_V.jpg"
 }
-line_notify.send(options)
+line_notify.ping(options)
 ```
 
 ![2018-02-16 0 53 38](https://user-images.githubusercontent.com/1485195/36266096-0ece0310-12b4-11e8-9b7e-67af11dadf9f.png)

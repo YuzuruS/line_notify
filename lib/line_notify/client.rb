@@ -9,7 +9,7 @@ module LineNotify
       @access_token = (access_token || ENV['LINE_ACCESS_TOKEN'])
     end
 
-    def send(options)
+    def ping(options)
       request = create_request(options)
       Net::HTTP.start(URI.hostname, URI.port, use_ssl: URI.scheme == "https") do |req|
         req.request(request)

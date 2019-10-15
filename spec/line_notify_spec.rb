@@ -4,22 +4,22 @@ RSpec.describe LineNotify do
       @cli = LineNotify.new
     end
     it "半角英数字メッセージが送信できること" do
-      res = @cli.send({message: "hoge123"})
+      res = @cli.ping({message: "hoge123"})
       expect(Net::HTTPSuccess === res).to eq true
     end
 
     it "日本語メッセージが送信できること" do
-      res = @cli.send({message: "ふが"})
+      res = @cli.ping({message: "ふが"})
       expect(Net::HTTPSuccess === res).to eq true
     end
 
     it "スタンプが送信できること" do
-      res = @cli.send({message: 'メッセージ', stickerPackageId: 1, stickerId: 113})
+      res = @cli.ping({message: 'メッセージ', stickerPackageId: 1, stickerId: 113})
       expect(Net::HTTPSuccess === res).to eq true
     end
 
     it "画像が送信できること" do
-      res = @cli.send({
+      res = @cli.ping({
         message: '可愛い画像',
         imageFullsize: "https://www.pakutaso.com/shared/img/thumb/SAYAPAKU5347_TP_V4.jpg",
         imageThumbnail: "https://www.pakutaso.com/shared/img/thumb/SAYAPAKU5347_TP_V.jpg"
@@ -33,17 +33,17 @@ RSpec.describe LineNotify do
       @cli = LineNotify.new
     end
     it "空メッセージ" do
-      res = @cli.send({message: ""})
+      res = @cli.ping({message: ""})
       expect(Net::HTTPSuccess === res).to eq false
     end
 
     it "stickerIdがたりない" do
-      res = @cli.send({message: 'メッセージ', stickerPackageId: 1})
+      res = @cli.ping({message: 'メッセージ', stickerPackageId: 1})
       expect(Net::HTTPSuccess === res).to eq false
     end
 
     it "サムネイルが足りない" do
-      res = @cli.send({
+      res = @cli.ping({
                           message: 'メッセージ',
                           imageFullsize: "https://www.pakutaso.com/shared/img/thumb/SAYAPAKU5347_TP_V4.jpg"
                       })
