@@ -30,5 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "terminal-notifier"
   spec.add_development_dependency "terminal-notifier-guard"
   spec.add_development_dependency 'coveralls'
-  spec.add_development_dependency 'ffi', '1.9.18'
+  spec.add_development_dependency 'ffi', '1.12.2'
 end
